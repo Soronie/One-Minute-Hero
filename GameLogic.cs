@@ -15,7 +15,11 @@ public class GameLogic : MonoBehaviour
 {
 
     private int playerScore;
+    // Character is assigned a value by RNG.
+    // If it is less than or equal to 10, a civilian will appear.
+    // Otherwise an enemy will appear
     private int character;
+    // Timer for civilian's on-screen appearance
     private float civTimer;
 
     void Start()
